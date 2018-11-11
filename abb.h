@@ -2,7 +2,7 @@
 #define ABB_H
 
 #include <stdbool.h>
-
+#include <stddef.h>
 
 typedef struct abb abb_t;
 
@@ -32,5 +32,8 @@ bool abb_iter_in_avanzar(abb_iter_t *iter);
 const char *abb_iter_in_ver_actual(const abb_iter_t *iter);
 bool abb_iter_in_al_final(const abb_iter_t *iter);
 void abb_iter_in_destruir(abb_iter_t* iter);
+
+
+void pruebas_abb_alumno(void);
 
 #endif

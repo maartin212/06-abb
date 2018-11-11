@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 typedef struct abb{
-  void* dato;
+  void* valor;
   struct abb abb_izq;
   struct abb abb_der;
 };
@@ -73,5 +73,5 @@ bool abb_iter_in_al_final(const abb_iter_t *iter){
 }
 
 void abb_iter_in_destruir(abb_iter_t* iter){
-  
+
 }
